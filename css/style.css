@@ -1,0 +1,118 @@
+
+body
+{
+    background-color: white;
+}
+
+.t1
+{
+    font-size: 1.5rem;
+
+}
+
+.a_
+{
+    list-style: none;
+    color: black;
+
+}
+
+.bar
+{
+    width: 50%;
+    height: 4px;
+    background-color: black;
+    border-radius: 100%;
+    margin: auto;
+    box-shadow: 0 0 15px #545454;
+}
+
+.bar_vertical
+{
+    width: 4px;
+    height: 50%;
+    background-color: black;
+    border-radius: 100%;
+    box-shadow: 0 0 15px #545454;
+}
+
+.img
+{
+    width: 8%;
+    height: auto;
+    padding: 1%;
+}
+
+.backgroundblur
+{
+    position: absolute;
+    top: 0;
+    z-index: 1000;
+    padding-top: 1vh;
+    width: 100vw;
+    min-height: 100vh;
+    backdrop-filter: blur(10px);
+
+
+
+}
+
+.modification
+{
+    color: green;
+    transition-duration: 0.1s;
+}
+
+.delete
+{
+    color: red;
+    transition-duration: 0.1s;
+}
+.modification:hover, .delete:hover
+{
+    transform: scale(1.15);
+}
+
+
+
+.button_prd
+{
+    border: 1px solid #333;
+    padding: 1%;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: auto;
+    display: block;
+    list-style:none;
+    width: fit-content;
+
+
+
+}
+
+.button_prd:hover
+{
+    background-color: #1c7430;
+    box-shadow: 0 0 10px #333;
+    color: white;
+    text-decoration: none;
+}
+
+
+.trueform
+{
+    border: 2px solid green;
+}
+
+.falsepassword
+{
+    border: 2px solid orange;
+}
+
+
+
+.falseform
+{
+    border: 2px solid red;
+}
+

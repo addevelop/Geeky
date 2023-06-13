@@ -1,0 +1,55 @@
+.container_menu_admin
+{
+    margin : 10vh auto 0 auto;
+    width: 80%;
+    height: auto;
+    padding: 9%;
+}
+
+.title_menu_admin
+{
+    margin: 1% auto 0 auto;
+    width: 80%;
+    border: 1px solid #333;
+    border-radius: 10px;
+    text-align: center;
+    transition-duration: 0.6s;
+
+
+}
+
+.title_menu_admin > div
+{
+    max-height: 0;
+    height: fit-content;
+    overflow: hidden;
+    transition-duration: 0.7s;
+
+}
+
+.title_menu_admin:hover > div
+{
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+.title_menu_admin:hover
+{
+    box-shadow: 0 0 10px #333;
+
+}
+
+@media (max-width: 670px)
+{
+    .container_menu_admin
+    {
+        width: 100%;
+        padding: 0;
+    }
+
+    .title_menu_admin
+    {
+        width: 90%;
+
+    }
+}

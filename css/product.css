@@ -1,0 +1,200 @@
+
+.body_product_prd
+{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.container_product_prd
+{
+    position: relative;
+    width:80%;
+    height: 70vh;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #333;
+    background-color: white;
+}
+
+.product_prd
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+}
+
+.product_cote_prd
+{
+    position: relative;
+    height: 100%;
+
+
+}
+
+.container_img
+{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.img_principal
+{
+    margin: auto;
+    width: 100%;
+    height: 80%;
+    overflow: auto;
+}
+
+.img_secondaire
+{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+}
+
+.img_prd
+{
+    position: relative;
+    top: 50%;
+    max-width: 100%;
+    height: 69%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+    transform: translateY(-50%);
+}
+
+.img_avis_prd
+{
+    width: 35%;
+    height: auto;
+    display: block;
+    float: right;
+    margin-right: 9%;
+    padding:1.5%;
+
+
+
+}
+
+
+.container_block_img
+{
+    height: 100%;
+    padding: 1%;
+}
+.block_img_secondaire
+{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #333;
+    display: block;
+    cursor: pointer;
+}
+
+.block_img_secondaire:hover
+{
+    opacity: 0.6;
+}
+
+.product_title
+{
+    height: 20%;
+    overflow: auto;
+}
+
+.product_description
+{
+    width: 100%;
+    height: 50%;
+    overflow: auto;
+
+}
+
+.product_price
+{
+    height: 10%;
+    overflow: auto;
+    text-align: end;
+
+
+}
+
+.product_button
+{
+    height: 18%;
+}
+
+.container_quantity
+{
+    padding: 2%;
+    width: 100%;
+    height: auto;
+}
+.quantity
+{
+    margin: auto;
+
+}
+
+.button_prd
+{
+    border: 1px solid #333;
+    padding: 1%;
+    border-radius: 10px;
+    font-weight: bold;
+
+
+}
+
+.button_prd:hover
+{
+    box-shadow: 0 0 10px #333;
+    text-decoration: none;
+    background-color: green;
+    color: white;
+}
+
+
+
+@media (max-width: 869px)
+{
+    .body_product_prd
+    {
+        display: block;
+
+    }
+
+    .container_product_prd
+    {
+        width:100%;
+        height: auto;
+    }
+
+    .product_title
+    {
+        margin-top: 10%;
+    }
+
+    .container_block_img
+    {
+        height: 15vh;
+    }
+
+    .img_prd{
+        top:0;
+        transform: translateY(0%);
+    }
+
+
+
+}
